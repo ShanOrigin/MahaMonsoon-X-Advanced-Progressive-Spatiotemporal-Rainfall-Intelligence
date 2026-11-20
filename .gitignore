@@ -1,0 +1,19 @@
+# =============================================================================
+# MahaMonsoon-X .gitignore
+# =============================================================================
+
+# --- Python ---
+__pycache__/
+
+# --- Virtual Environment ---
+.venv312/
+
+# --- Environment Secrets ---
+.env
+
+# --- Data (too large for Git) ---
+data/
+
+# --- IDE ---
+.vscode/
+
