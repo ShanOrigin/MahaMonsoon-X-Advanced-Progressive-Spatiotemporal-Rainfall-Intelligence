@@ -1,0 +1,18 @@
+short_name,name,units,messages,Ni_grid_columns,Nj_grid_rows,points_per_message,packing_type,step_type,step_range,bitmap_present,missing_count_if_available,total_grid_points,missing_percent_if_available,missing_count_source,first_validity_date,last_validity_date,unique_validity_dates
+10si,10 metre wind speed,m s**-1,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+10u,10 metre U wind component,m s**-1,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+10v,10 metre V wind component,m s**-1,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+2d,2 metre dewpoint temperature,K,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+2t,2 metre temperature,K,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+avg_vimdf,Time-mean total column vertically-integrated moisture divergence flux,kg m**-2 s**-1,783,69,33,2277,grid_simple,avgad,0-12,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+lai_lv,"Leaf area index, low vegetation",m**2 m**-2,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+msl,Mean sea level pressure,Pa,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+skt,Skin temperature,K,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+slhf,Time-integrated surface latent heat net flux,J m**-2,783,69,33,2277,grid_simple,avgad,0-12,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+sp,Surface pressure,Pa,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,783,69,33,2277,grid_simple,avgad,0-12,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+sst,Sea surface temperature,K,783,69,33,2277,grid_simple,avgua,0,1,985797,1782891,55.292050944224854,GRIB metadata,19400101,20260901,783
+swvl1,Volumetric soil water layer 1,m**3 m**-3,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+tcwv,Total column vertically-integrated water vapour,kg m**-2,783,69,33,2277,grid_simple,avgua,0,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+tp,Total precipitation,m,783,69,33,2277,grid_simple,avgad,0-12,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783
+ttr,Top net long-wave (thermal) radiation,J m**-2,783,69,33,2277,grid_simple,avgad,0-12,0,0,1782891,0.0,GRIB metadata,19400101,20260901,783

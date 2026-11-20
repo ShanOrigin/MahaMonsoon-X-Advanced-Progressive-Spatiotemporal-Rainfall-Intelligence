@@ -1,0 +1,18 @@
+short_name,name,units,missing_percent_if_available,missing_count_source,candidate_imputation_strategy,sampled_messages,sampled_non_finite_values,sampled_min,sampled_max
+10si,10 metre wind speed,m s**-1,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,1.167154312133789,7.255849838256836
+10u,10 metre U wind component,m s**-1,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,-4.3127899169921875,5.18105411529541
+10v,10 metre V wind component,m s**-1,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,-4.377662658691406,6.623964309692383
+2d,2 metre dewpoint temperature,K,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,272.54541015625,297.15478515625
+2t,2 metre temperature,K,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,289.974853515625,303.3798828125
+avg_vimdf,Time-mean total column vertically-integrated moisture divergence flux,kg m**-2 s**-1,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,-2.8414186090230942e-05,7.097725756466389e-05
+lai_lv,"Leaf area index, low vegetation",m**2 m**-2,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,0.0,2.9853515625
+msl,Mean sea level pressure,Pa,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,100742.5625,101506.9375
+skt,Skin temperature,K,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,290.15625,308.033203125
+slhf,Time-integrated surface latent heat net flux,J m**-2,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,-14223984.0,-174192.0
+sp,Surface pressure,Pa,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,91662.625,101482.6875
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,16119808.0,26293776.0
+sst,Sea surface temperature,K,55.292050944224854,GRIB metadata,Investigate masks/source coverage; avoid blind imputation and consider excluding affected cells/periods.,3,0,294.435302734375,9999.0
+swvl1,Volumetric soil water layer 1,m**3 m**-3,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,-1.142137625720352e-05,0.3920593089569593
+tcwv,Total column vertically-integrated water vapour,kg m**-2,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,11.829483032226562,36.14867115020752
+tp,Total precipitation,m,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,0.0,0.00475311279296875
+ttr,Top net long-wave (thermal) radiation,J m**-2,0.0,GRIB metadata,No missing values reported by metadata; verify sample and physical ranges.,3,0,-26809920.0,-23306848.0
