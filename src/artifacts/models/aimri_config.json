@@ -1,0 +1,20 @@
+{
+  "name": "AIMRI",
+  "method": "mean of the previous five same-month rainfall observations",
+  "history_years": 5,
+  "target_months": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "lag_columns": [
+    "rain_lag_1",
+    "rain_lag_2",
+    "rain_lag_3",
+    "rain_lag_4",
+    "rain_lag_5"
+  ],
+  "target_column": "tp",
+  "note": "AIMRI is a deterministic baseline, not a fitted estimator."
+}

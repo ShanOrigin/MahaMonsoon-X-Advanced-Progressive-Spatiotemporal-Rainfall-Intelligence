@@ -1,0 +1,65 @@
+{
+  "project": "MahaMonsoon-X",
+  "csv_path": "data\\processed\\era5_processed.csv",
+  "target_column": "tp",
+  "time_column": "timestamp",
+  "latitude_column": "latitude",
+  "longitude_column": "longitude",
+  "feature_columns": [
+    "rain_lag_1",
+    "rain_lag_2",
+    "rain_lag_3",
+    "rain_lag_4",
+    "rain_lag_5",
+    "may_10u",
+    "may_10v",
+    "may_2d",
+    "may_2t",
+    "may_msl",
+    "may_sp",
+    "may_avg_vimdf",
+    "may_skt",
+    "may_10si",
+    "may_lai_lv",
+    "may_tcwv",
+    "may_ttr",
+    "may_slhf",
+    "may_ssrd",
+    "may_swvl1"
+  ],
+  "lag_columns": [
+    "rain_lag_1",
+    "rain_lag_2",
+    "rain_lag_3",
+    "rain_lag_4",
+    "rain_lag_5"
+  ],
+  "may_feature_columns": [
+    "may_10u",
+    "may_10v",
+    "may_2d",
+    "may_2t",
+    "may_msl",
+    "may_sp",
+    "may_avg_vimdf",
+    "may_skt",
+    "may_10si",
+    "may_lai_lv",
+    "may_tcwv",
+    "may_ttr",
+    "may_slhf",
+    "may_ssrd",
+    "may_swvl1"
+  ],
+  "train_years": [
+    1945,
+    2009
+  ],
+  "test_years": [
+    2010,
+    2026
+  ],
+  "model_path": "artifacts\\models\\linear_regression_pipeline.joblib",
+  "aimri_config_path": "artifacts\\models\\aimri_config.json",
+  "warning": "Metrics use the values in the supplied processed CSV. If that CSV was standardized using the full dataset before this notebook, scores are in processed target units and may contain preprocessing leakage."
+}
