@@ -1,0 +1,84 @@
+{
+  "project": "MahaMonsoon-X",
+  "model": "Ridge regularized multiple linear regression",
+  "input_csv": "d:\\Projects\\MahaMonsoon-X-Advanced-Progressive-Spatiotemporal-Rainfall-Intelligence\\data\\processed\\era5_processed.csv",
+  "target_column": "tp",
+  "feature_columns": [
+    "10u",
+    "10v",
+    "2d",
+    "2t",
+    "msl",
+    "sp",
+    "avg_vimdf",
+    "skt",
+    "10si",
+    "lai_lv",
+    "tcwv",
+    "ttr",
+    "slhf",
+    "ssrd",
+    "swvl1",
+    "tp_lag_1",
+    "tp_lag_2",
+    "tp_lag_3",
+    "tp_lag_6",
+    "tp_lag_12",
+    "month_sin",
+    "month_cos"
+  ],
+  "weather_columns": [
+    "10u",
+    "10v",
+    "2d",
+    "2t",
+    "msl",
+    "sp",
+    "avg_vimdf",
+    "skt",
+    "10si",
+    "lai_lv",
+    "tcwv",
+    "ttr",
+    "slhf",
+    "ssrd",
+    "swvl1"
+  ],
+  "rainfall_lags_months": [
+    1,
+    2,
+    3,
+    6,
+    12
+  ],
+  "calendar_features": [
+    "month_sin",
+    "month_cos"
+  ],
+  "selected_alpha": 1000.0,
+  "train_years": [
+    1940,
+    1999
+  ],
+  "validation_years": [
+    2000,
+    2012
+  ],
+  "test_years": [
+    2013,
+    2026
+  ],
+  "metrics": [
+    {
+      "model": "Ridge Multiple Linear Regression",
+      "selected_alpha": 1000.0,
+      "MAE": 0.12371752709673924,
+      "RMSE": 0.17668047883759286,
+      "R2": 0.9695362694264027,
+      "test_rows": 573804,
+      "test_year_start": 2013,
+      "test_year_end": 2026
+    }
+  ],
+  "target_units_note": "Uses processed CSV target scale; verify upstream standardization and ERA5 units."
+}

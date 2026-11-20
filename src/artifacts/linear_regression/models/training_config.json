@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "alpha_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "selected_alpha": 1000.0,
+  "split_strategy": "chronological by target year",
+  "refit_strategy": "training + validation years; test held out"
+}

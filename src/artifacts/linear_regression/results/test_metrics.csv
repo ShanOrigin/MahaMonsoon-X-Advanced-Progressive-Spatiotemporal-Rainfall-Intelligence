@@ -1,0 +1,2 @@
+model,selected_alpha,MAE,RMSE,R2,test_rows,test_year_start,test_year_end
+Ridge Multiple Linear Regression,1000.0,0.12371752709673924,0.17668047883759286,0.9695362694264027,573804,2013,2026
