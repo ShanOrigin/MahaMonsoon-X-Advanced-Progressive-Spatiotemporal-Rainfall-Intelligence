@@ -1,0 +1,5 @@
+{
+  "lookback_years": 10,
+  "recency_factor": 1.0,
+  "min_history": 3
+}

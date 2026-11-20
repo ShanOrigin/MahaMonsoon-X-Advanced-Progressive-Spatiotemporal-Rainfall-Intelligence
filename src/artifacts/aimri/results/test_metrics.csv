@@ -1,0 +1,2 @@
+model,MAE,RMSE,R2,n,lookback_years,recency_factor,test_year_start,test_year_end
+AIMRI,0.19551412675311416,0.3772356357336925,0.6859904099880549,286902,10,1.0,2013,2026

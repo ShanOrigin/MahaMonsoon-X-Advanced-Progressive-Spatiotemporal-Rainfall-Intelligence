@@ -1,0 +1,59 @@
+{
+  "project": "MahaMonsoon-X",
+  "model": "AIMRI historical same-month same-grid rainfall baseline",
+  "input_csv": "d:\\Projects\\MahaMonsoon-X-Advanced-Progressive-Spatiotemporal-Rainfall-Intelligence\\data\\processed\\era5_processed.csv",
+  "target_column": "tp",
+  "key_columns": [
+    "year",
+    "month",
+    "latitude",
+    "longitude"
+  ],
+  "formula": "weighted mean of previous K same-month values at the same grid cell",
+  "lag_1_is": "most recent previous year",
+  "hyperparameter_search": {
+    "lookback_candidates": [
+      3,
+      5,
+      7,
+      10
+    ],
+    "recency_candidates": [
+      1.0,
+      0.8,
+      0.6
+    ],
+    "minimum_history": 3
+  },
+  "selected_configuration": {
+    "lookback_years": 10,
+    "recency_factor": 1.0,
+    "min_history": 3
+  },
+  "train_years": [
+    1940,
+    1999
+  ],
+  "validation_years": [
+    2000,
+    2012
+  ],
+  "test_years": [
+    2013,
+    2026
+  ],
+  "test_metrics": [
+    {
+      "model": "AIMRI",
+      "MAE": 0.19551412675311416,
+      "RMSE": 0.3772356357336925,
+      "R2": 0.6859904099880549,
+      "n": 286902,
+      "lookback_years": 10,
+      "recency_factor": 1.0,
+      "test_year_start": 2013,
+      "test_year_end": 2026
+    }
+  ],
+  "target_units_note": "Uses processed CSV target scale; verify upstream standardization and ERA5 units."
+}
