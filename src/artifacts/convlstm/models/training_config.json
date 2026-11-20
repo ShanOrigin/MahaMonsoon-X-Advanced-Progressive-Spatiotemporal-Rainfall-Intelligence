@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "device_used": "cpu",
+  "batch_size": 2,
+  "max_epochs_per_candidate": 30,
+  "patience": 6,
+  "learning_rates_searched": [
+    0.001,
+    0.0003
+  ],
+  "hidden_channels_searched": [
+    8,
+    16
+  ],
+  "kernel_sizes_searched": [
+    3
+  ],
+  "selected": {
+    "hidden_channels": 8,
+    "learning_rate": 0.001,
+    "kernel_size": 3,
+    "best_epoch": 11
+  }
+}
